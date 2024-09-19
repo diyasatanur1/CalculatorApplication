@@ -91,7 +91,7 @@ class MainActivity : AppCompatActivity() {
                     val intent = Intent(this, CalculatorActivity::class.java)
                     intent.putExtra("EXTRA_MESSAGE", userInput)
                     startActivity(intent)
-               //     resultTextView.text = "Result: $result"
+
                 }
             } else {
                 Toast.makeText(this, "Please enter valid numbers", Toast.LENGTH_SHORT).show()
